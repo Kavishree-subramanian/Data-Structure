@@ -46,7 +46,7 @@ class LinkedList {
 }
 	public class Main
 	{
-		public static void main(String[] args) {
+		public static void linkedListInsertion(String[] args) {
 			LinkedList link=new LinkedList();
 			link.insert(100);
 			link.insert(200);

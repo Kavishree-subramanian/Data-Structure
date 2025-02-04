@@ -43,39 +43,22 @@ class Q {
 		else {
 			System.out.println("Display Elements");
 			for(int i = front; i<=rear; i++) {
-
 				System.out.println(a[i]);
-
 			}
-
 		}
-
 	}
-
-
 }
-
 public class Main {
 
 	public static void main(String args[]) {
 
 		Q m = new Q();
-
 		m.Push(10);
-
 		m.Push(20);
-
 		m.Push(30);
-
 		m.Push(40);
-
 		m.display();
-
 		m.peek();
-
 		m.pop();
-
-
 	}
-
 }
